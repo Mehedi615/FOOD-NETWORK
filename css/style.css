@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  padding: 50px 50px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-content span {
+  color: #FBA24F;
+}
+
+.header-content p {
+  color: #828282;
+  margin: 20px 0;
+}
+
+.header-content h1 {
+  font-weight: 700;
+  color: #575757;
+  font-size: 30px;
+}
+
+.header img {
+  width: 80%;
+}
+
+.half-width {
+  width: 50%;
+  padding: 1% 5%;
+}
+
+.primary {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(orange), to(tomato));
+  background-image: linear-gradient(orange, tomato);
+  color: #f4f4f4;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.about_me {
+  background-image: url("../images/shapes/7.png");
+  background-repeat: no-repeat;
+}
+
+.about_me p {
+  color: #18191F;
+  padding: 20px 0;
+}
+
+.about_me img {
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */
