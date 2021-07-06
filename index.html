@@ -11,24 +11,38 @@
 
 <body>
     <!-- header -->
-    <section class="header flex ">
-        <div class="header-content half-width ">
-            <h1><span>Skip </span>The Diet, <br>
-                Just Eat Healthy <br>
-                With Food Network</h1>
-            <p>Imagine you don't need a diet because we provide
-                healthy and delicious food for you!</p>
-            <a target="_blank" href="https://github.com/mehedi615"><button class="primary">Order Food</button></a>
-        </div>
+    <section class="header my-30">
+        <nav>
+            <ul class="flex jc-center ">
+                <li><a href="#home" class="secondary">Home</a></li>
+                <li><a href="#about" class="secondary">About Me</a></li>
+                <li><a href="#recipe" class="secondary">My Recipies</a></li>
+                <li><a href="#contact" class="secondary">Contact Me</a></li>
+                <li><a href="#" class="primary" class="secondary">Order Now</a></li>
 
-        <div class="header-image half-width">
-            <img src="./images/female/Group 8425.png" alt="Person">
+
+
+            </ul>
+        </nav>
+        <div class="flex my-30">
+            <div class="header-content half-width ">
+                <h1><span>Skip </span>The Diet, <br>
+                    Just Eat Healthy <br>
+                    With Food Network</h1>
+                <p>Imagine you don't need a diet because we provide
+                    healthy and delicious food for you!</p>
+                <a target="_blank" href="https://github.com/mehedi615"><button class="primary">Order Food</button></a>
+            </div>
+
+            <div class="header-image half-width">
+                <img src="./images/female/Group 8425.png" alt="Person">
+            </div>
         </div>
 
     </section>
 
     <!-- about -->
-    <section class="about_me my-30">
+    <section class="about_me my-30" id="about">
         <div class="container flex">
             <div class="about_image  half-width">
                 <img src="./images/female/Person Image.png" alt="">
@@ -43,37 +57,74 @@
         </div>
     </section>
     <!-- recipe -->
-    <section class="my-30 recipe">
-        <div class="contianer">
+    <section class="my-30 recipe " id="recipe">
+        <div class=" contianer">
             <h3 class="text-center">My recipies</h3>
             <p class="text-center">The earliest known written recipes date to 1730 BC and were recorded <br> on
                 cuneiform
                 tablets found in Other early <br>
             </p>
-            <div class="recipe-cards flex jc-center">
-                <div class="recipe-card text-center">
-                    <img src="./images/food/Project Cover.png" alt="">
-                    <h4>Thai Soup</h4>
-                    <p>Tom yum is probably the most popular and famous Thai soup out there, and for good reason. The
-                        soup is served piping hot and the forward flavors are sour and spicy.</p>
-                </div>
-                <div class="recipe-card  text-center">
-                    <img src="./images/food/Project Cover6.png" alt="">
-                    <h4>Pizza</h4>
-                    <p>Pizza is an Italian dish consisting of a usually round, flattened base of leavened wheat-based
-                        dough topped with tomatoes, cheese, and often various other ingredients.</p>
-                </div>
-                <div class="recipe-card text-center">
-                    <img src="./images/food/Project Cover5.png" alt="">
-                    <h4>Salad</h4>
-                    <p>a cold dish of various mixtures of raw or cooked vegetables, usually seasoned with oil, vinegar,
-                        or other dressing and sometimes accompanied by meat, fish, or other ingredients.
-                        "a green salad"</p>
-                </div>
+            <div class="recipe-cards flex jc-center" ">
+                <div class=" recipe-card text-center">
+                <img src="./images/food/Project Cover.png" alt="">
+                <h4>Thai Soup</h4>
+                <p>Tom yum is probably the most popular and famous Thai soup out there, and for good reason. The
+                    soup is served piping hot and the forward flavors are sour and spicy.</p>
+            </div>
+            <div class="recipe-card  text-center">
+                <img src="./images/food/Project Cover6.png" alt="">
+                <h4>Pizza</h4>
+                <p>Pizza is an Italian dish consisting of a usually round, flattened base of leavened wheat-based
+                    dough topped with tomatoes, cheese, and often various other ingredients.</p>
+            </div>
+            <div class="recipe-card text-center">
+                <img src="./images/food/Project Cover5.png" alt="">
+                <h4>Salad</h4>
+                <p>a cold dish of various mixtures of raw or cooked vegetables, usually seasoned with oil, vinegar,
+                    or other dressing and sometimes accompanied by meat, fish, or other ingredients.
+                    "a green salad"</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="counter text-center ">
+        <div class=" flex jc-center ">
+            <div class="counter-content ">
+                <h2>700k</h2>
+                <small>Youtube Subscribers</small>
+            </div>
+            <div class="counter-content">
+                <h2>2.4m</h2>
+                <small>Instagram Followers</small>
+            </div>
+            <div class="counter-content">
+                <h2>100k</h2>
+                <small>Dribbble Shot Likes</small>
             </div>
         </div>
     </section>
 
+    <section class="contact-me" id="contact">
+        <div class="container">
+            <h1 class="text-center">Contact me</h1>
+            <form>
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                <!-- <input class="secondary" type="submit" value="SUBMIT" /> -->
+                <button type="submit" class="secondary">Submit</button>
+            </form>
+        </div>
+
+    </section>
+    <footer>
+        <div class="container text-center">
+            <h3><span>FOOD </span>NETWORK</h3>
+            <p>Eat healthy to live healthy. Live healthy to live happy. <br> Copyright &copy; Mehedi Hasan </p>
+
+        </div>
+    </footer>
 </body>
 
 </html>
